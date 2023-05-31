@@ -10,19 +10,10 @@
 			transition: background-image 1s ease-in-out;
 		}
 	</style>
-	<script>
-		'var imageArray = ["image1.jpg", "image2.jpg", "image3.jpg"]; // An array of image URLs.
-		'var index = 0; // The index of the current image in the array.
-		function changeBackgroundImage() { // A function to change the background image.
-			'index = (index + 1) % imageArray.length; // Increment the index, wrapping around to 0 at the end of the array.
-			document.body.style.backgroundImage = "https://www.dropbox.com/s/nbkl3ugtc51a14o/StocksPatternsByMarti.jpg?dl=1";
-			setTimeout(changeBackgroundImage, 5000); // Call this function again after 5 seconds.
-		}
-		window.onload = changeBackgroundImage; // Call the function when the window loads.
-	</script>
+	<meta http-equiv="refresh" content="5">
 </head>
 <body>
-	<h1>Hello World!</h1>
-	<p>This page will automatically change the background image every 5 seconds.</p>
+	<h1>Changed</h1>
+	
 </body>
 </html>
